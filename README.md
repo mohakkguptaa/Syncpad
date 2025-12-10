@@ -13,7 +13,7 @@ It is intentionally minimal, meant as a sandbox environment to understand the co
   - Update  
   - Sync  
   - Unsync  
-- A simple `index.html` file to manually test WebSocket connections and channel subscriptions
+- A simple `ws-test.html` file to manually test WebSocket connections and channel subscriptions
 
 ---
 
@@ -67,7 +67,7 @@ Use the **desync** API to:
 
 ## 4. WebSocket Testing (`index.html`)
 
-The provided `index.html` is a minimal WebSocket tester used to demonstrate real-time updates.
+The provided `ws-test.html` is a minimal WebSocket tester used to demonstrate real-time updates.
 
 It includes:
 - Input for WebSocket URL (your Spring Boot WS endpoint)
@@ -75,7 +75,7 @@ It includes:
 - Buttons for **Connect** and **Subscribe**
 
 ### How to Use It
-1. Open `index.html` in your browser.  
+1. Open `ws-test.html` in your browser.  
 2. Enter your WebSocket URL in the HTML file.  
 3. Connect.  
 4. Subscribe to a content update channel (configure the channel based on the update method in service layer).  
