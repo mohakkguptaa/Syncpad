@@ -1,6 +1,6 @@
-# Content Sync POC — Backend + WebSocket Demo
+# Content Sync — Backend + WebSocket
 
-This repository is a hands-on POC that demonstrates the basic idea behind content syncing, desyncing, and real-time updates using APIs + WebSockets.  
+This repository is a hands-on practice that demonstrates the basic idea behind content syncing, desyncing, and real-time updates using APIs + WebSockets.  
 It is intentionally minimal, meant as a sandbox environment to understand the core flows, not a full product implementation.
 
 ---
@@ -17,7 +17,7 @@ It is intentionally minimal, meant as a sandbox environment to understand the co
 
 ---
 
-## How to Run This POC
+## How to Run This Project
 
 ### 1. Database Setup
 1. Create a new database.  
@@ -65,7 +65,7 @@ Use the **desync** API to:
 
 ---
 
-## 4. WebSocket Testing (`index.html`)
+## 4. WebSocket Testing (`ws-test.html`)
 
 The provided `ws-test.html` is a minimal WebSocket tester used to demonstrate real-time updates.
 
